@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const MenuItems = ({ setSidebarOpen, sidebarOpen }) => {
   return (
     <div className="px-6 text-gray-600 space-y-1 font-medium">
-      {menuItemsData.map(({to, label, Icon}) => (
+      {menuItemsData.map(({ to, label, Icon }) => (
         <NavLink
           key={to}
           to={to}
@@ -17,10 +17,8 @@ const MenuItems = ({ setSidebarOpen, sidebarOpen }) => {
             }`
           }
         >
-            <Icon className="w-5 h-5"/>
-            {
-                label
-            }
+          <Icon className="w-5 h-5" />
+          {label}
         </NavLink>
       ))}
     </div>

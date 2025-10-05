@@ -65,7 +65,7 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:16:06.958Z",
+        "createdAt": "2025-10-05T17:03:21.000Z",
         "updatedAt": "2025-07-25T08:16:06.958Z",
     },
     {
@@ -75,7 +75,7 @@ export const dummyStoriesData = [
         "media_url": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
         "media_type": "image",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:27:48.134Z",
+        "createdAt": "2025-10-05T17:03:21.000Z",
         "updatedAt": "2025-07-25T08:27:48.134Z",
     },
     {
@@ -85,7 +85,7 @@ export const dummyStoriesData = [
         "media_url": "https://videos.pexels.com/video-files/14447442/14447442-hd_1080_1920_30fps.mp4",
         "media_type": "video",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:27:21.289Z",
+        "createdAt": "2025-10-05T17:03:21.000Z",
         "updatedAt": "2025-07-25T08:27:21.289Z",
     },
     {
@@ -95,7 +95,7 @@ export const dummyStoriesData = [
         "media_url": "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
         "media_type": "image",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:19:31.080Z",
+        "createdAt": "2025-10-05T17:03:21.000Z",
         "updatedAt": "2025-07-25T08:19:31.080Z",
     },
     {
@@ -105,7 +105,7 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:16:48.617Z",
+        "createdAt": "2025-10-05T17:03:21.000Z",
         "updatedAt": "2025-07-25T08:16:48.617Z",
     },
     {
@@ -115,7 +115,7 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:13:18.111Z",
+        "createdAt": "2025-10-05T17:03:21.000Z",
         "updatedAt": "2025-07-25T08:13:18.111Z",
     }
 ]
@@ -131,7 +131,7 @@ export const dummyPostsData = [
         ],
         "post_type": "text_with_image",
         "likes_count": [],
-        "createdAt": "2025-07-16T05:54:31.191Z",
+        "createdAt": "2025-10-05T02:54:31.191Z",
         "updatedAt": "2025-07-16T05:54:31.191Z",
     },
     {
@@ -141,7 +141,7 @@ export const dummyPostsData = [
         "image_urls": [],
         "post_type": "text",
         "likes_count": [],
-        "createdAt": "2025-07-09T13:22:12.601Z",
+        "createdAt": "2025-10-05T13:22:12.601Z",
         "updatedAt": "2025-07-09T13:22:12.601Z",
     },
     {
@@ -151,7 +151,7 @@ export const dummyPostsData = [
         "image_urls": [],
         "post_type": "text",
         "likes_count": [],
-        "createdAt": "2025-07-09T13:14:09.144Z",
+        "createdAt": "2025-09-09T13:14:09.144Z",
         "updatedAt": "2025-07-09T13:14:09.144Z",
     },
     {
@@ -165,7 +165,7 @@ export const dummyPostsData = [
         "likes_count": [
             "user_2zdJbcAqiOX9jq2DIueBRQn0lMt"
         ],
-        "createdAt": "2025-07-09T10:02:47.213Z",
+        "createdAt": "2025-09-09T10:02:47.213Z",
         "updatedAt": "2025-07-09T10:09:37.075Z",
     },
     {
@@ -177,7 +177,7 @@ export const dummyPostsData = [
         ],
         "post_type": "text_with_image",
         "likes_count": [],
-        "createdAt": "2025-07-09T09:44:08.626Z",
+        "createdAt": "2025-09-09T09:44:08.626Z",
         "updatedAt": "2025-07-09T09:44:08.626Z",
     },
     {
@@ -187,7 +187,7 @@ export const dummyPostsData = [
         "image_urls": [],
         "post_type": "text",
         "likes_count": [],
-        "createdAt": "2025-07-09T09:27:47.529Z",
+        "createdAt": "2025-09-09T09:27:47.529Z",
         "updatedAt": "2025-07-09T09:27:47.529Z",
     }
 ]
@@ -201,7 +201,7 @@ export const dummyRecentMessagesData = [
         "message_type": "text",
         "media_url": "",
         "seen": true,
-        "createdAt": "2025-07-25T08:06:14.436Z",
+        "createdAt": "2025-09-25T08:06:14.436Z",
         "updatedAt": "2025-07-25T08:47:47.768Z",
     },
     {
