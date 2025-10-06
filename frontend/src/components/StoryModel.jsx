@@ -27,7 +27,7 @@ const StoryModel = ({ setShowModel, fetchStories }) => {
   };
 
   const handleCreateStory = async () => {
-    console.log("Story has been uploaded")
+    console.log("Story has been uploaded");
   };
 
   return (
@@ -109,11 +109,16 @@ const StoryModel = ({ setShowModel, fetchStories }) => {
           </label>
         </div>
 
-        <button onClick={()=> toast.promise(handleCreateStory(),{
-            loading : "Saving...",
-            success : <p>Story Added</p>,
-            error: e => <p>{e.message}</p>
-        })} className="flex items-center justify-center gap-2 text-white py-3 mt-4 w-full rounded bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 active:scale-95 transition cursor-pointer">
+        <button
+          onClick={() =>
+            toast.promise(handleCreateStory(), {
+              loading: "Saving...",
+              success: <p>Story Added</p>,
+              error: (e) => <p>{e.message}</p>,
+            })
+          }
+          className="flex items-center justify-center gap-2 text-white py-3 mt-4 w-full rounded bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 active:scale-95 transition cursor-pointer"
+        >
           <Sparkle size={18} /> Create Story
         </button>
       </div>
