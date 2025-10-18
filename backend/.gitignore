@@ -1,0 +1,66 @@
+# =====================================
+# Environment files
+# =====================================
+.env
+*.env
+.env.*
+
+# =====================================
+# Node.js related
+# =====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# =====================================
+# Python related
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+*.sqlite3
+
+# =====================================
+# IDE / Editor files
+# =====================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =====================================
+# System files
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================
+# Logs & caches
+# =====================================
+*.log
+logs/
+.cache/
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+# =====================================
+# Test / Temp files
+# =====================================
+temp/
+tmp/
